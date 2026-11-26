@@ -39,6 +39,8 @@ def main() -> None:
     run("src/case_report.py", "--ticket", "T07")
     run("src/build_dashboard.py")
     run("src/build_pdf.py")
+    run("-m", "jupyter", "nbconvert", "--to", "notebook", "--execute", "--inplace",
+        "notebooks/datadome_fraud_analysis.ipynb")       # the single notebook, executed end to end
     if (ROOT / "data" / "_hidden_truth.csv").exists():
         run("src/check_truth.py")              # only where the hidden truth exists (not in the published repository)
 
