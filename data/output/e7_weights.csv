@@ -1,5 +1,5 @@
 signal,w_present,w_absent
 s1_device_cluster,4.31,-2.635
-s_risky_ip,0.366,-0.023
 s_ip_failures,3.371,-0.026
 s_new_device,0.833,-3.079
+s_risky_ip,0.366,-0.023

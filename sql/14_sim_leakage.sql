@@ -73,4 +73,4 @@ SELECT 'A leaky: account locked in the 23 Nov snapshot' AS model, 'all rows (no 
 UNION ALL SELECT 'B existing signals, as of login', 'test (12 Oct - 22 Nov)', * FROM auc_of(score_existing, 0, 'test')
 UNION ALL SELECT 'C existing + S1 device cluster, as of login', 'test (12 Oct - 22 Nov)', * FROM auc_of(score_with_s1, 0, 'test');
 
-CREATE OR REPLACE TABLE out_e7_weights AS SELECT signal, ROUND(wp, 3) AS w_present, ROUND(wa, 3) AS w_absent FROM e7_w;
+CREATE OR REPLACE TABLE out_e7_weights AS SELECT signal, ROUND(wp, 3) AS w_present, ROUND(wa, 3) AS w_absent FROM e7_w ORDER BY signal;

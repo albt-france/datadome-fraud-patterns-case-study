@@ -36,7 +36,7 @@ WITH b AS (
 SELECT customer_id, week, metric, ROUND(value, 5) AS value, ROUND(baseline, 5) AS baseline,
        ROUND((value - baseline) / greatest(1.4826 * spread, 0.02 * abs(baseline), 1e-4), 2) AS robust_z,
        ROUND(value / NULLIF(baseline, 0) - 1, 3) AS rel_change
-FROM b WHERE n_prev >= 3;
+FROM b WHERE n_prev >= 3 ORDER BY customer_id, metric, week;
 
 -- flags: only moves in the RISKY direction count, with a minimum size per metric (rare-event rates need a bigger move)
 CREATE OR REPLACE TABLE metric_rules AS SELECT * FROM (VALUES

@@ -90,8 +90,8 @@ SELECT k, SUM((rk <= k AND is_ato)::INT) AS ato_in_top_k, ROUND(SUM((rk <= k AND
        ROUND(k / (SELECT COUNT(*) FROM ranked), 6) AS share_reviewed
 FROM ranked, (SELECT unnest([100, 1000, 10000, 100000]) AS k) GROUP BY k ORDER BY k;
 
-CREATE OR REPLACE TABLE out_rba_thresholds AS SELECT * FROM rba_thr;
-CREATE OR REPLACE TABLE out_rba_weights AS SELECT signal, ROUND(w_present, 3) AS w_present, ROUND(w_absent, 3) AS w_absent FROM rba_w;
+CREATE OR REPLACE TABLE out_rba_thresholds AS SELECT * FROM rba_thr ORDER BY signal;
+CREATE OR REPLACE TABLE out_rba_weights AS SELECT signal, ROUND(w_present, 3) AS w_present, ROUND(w_absent, 3) AS w_absent FROM rba_w ORDER BY signal;
 -- ATO labels by month in the test period (shows where labels stop)
 CREATE OR REPLACE TABLE out_rba_test_labels AS
 SELECT date_trunc('month', day)::DATE AS month, COUNT(*) AS successful_logins, SUM(is_ato::INT) AS ato
