@@ -1,0 +1,2 @@
+distinct_ips,max_attempts_per_ip_hour,avg_attempts_per_active_ip_hour,share_recommended_allow
+9400,1,1.0,0.8593

@@ -1,0 +1,22 @@
+test,passed,detail
+K01 login event_id unique after deduplication,true,2614253 rows
+K02 sign-up event_id unique,true,450874 rows
+K03 crawler session_id unique,true,42878 rows
+Q01 duplicates exist only in SDK 4.2 events,true,21620 duplicates
+Q02 traffic_daily login requests = raw login events (customer x day),true,0 mismatches
+Q03 traffic_daily sign-up requests = sign-up events (customer x day),true,0 mismatches
+Q04 traffic_daily verified_bot requests = crawler sessions,true,9474048 requests
+P01 no IP address in published tables (hash of 10 hex characters only),true,"ip_hash, ua_family, device_hash checked"
+P02 no original RBA User ID in outputs (no user column in out_rba_*),true,0 columns
+P03 no published group under 5 accounts,true,min 620
+"R01 RBA rules: thresholds learned on train, scored on labelled test months",true,test ATO = 38
+"E1 credential stuffing on C03 flagged the week of 5 Oct: device cluster, per-IP rule blind",true,"9400 IPs, max 1 per IP-hour"
+E2 account takeover: 214 accounts with success from the cluster then e-mail change within 1 h,true,214 of 9930
+"E3 fake trial sign-ups on C05: 40 devices, no conversion, flagged week of 21 Sep",true,3800 sign-ups on 40 devices
+E4 fake Googlebot on C08 from 26 Oct: > 1 M requests outside the published ranges,true,1218262 requests
+"E5 SDK 4.2 on C07: data-quality status from 12 Oct, raw deny rate falsely lower than clean",true,"empty device 0.3775, duplicates 0.2308"
+"E6 Simpson after R12 on C04: total pass rate up, web AND app down",true,total 0.5202 -> 0.6821
+"E7 leakage: leaky AUC >= 0.97, honest as-of AUC on the test period clearly lower",true,A 0.998 / B 0.872 / C 0.994
+"E8 C01 pre-sale 19-22 Nov: volume moved, classified as explained by the campaign",true,"signups +141%, logins +98%"
+F1 no alert raised for C01 between 19 and 22 Nov,true,0 alerts
+F2 no alert at all outside the 8 events (no false positive in 12 weeks x 12 customers),true,0 unexpected alerts

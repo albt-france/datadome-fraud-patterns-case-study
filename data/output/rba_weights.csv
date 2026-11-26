@@ -1,0 +1,5 @@
+signal,w_present,w_absent
+new_device_type,0.852,-0.099
+new_browser,0.576,-0.269
+new_country,4.371,-0.578
+attack_ip,2.242,-0.776

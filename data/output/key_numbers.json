@@ -1,0 +1,17 @@
+{
+ "rba_logins": "31,269,264",
+ "rba_topk": "14 of 38 takeovers",
+ "rba_best_rule": "531 false alerts per caught takeover",
+ "e1_ips": "9,400 IPs",
+ "e2_accounts": "214 accounts",
+ "e2_validated": "9,930 accounts",
+ "e3_signups": "3,800 sign-ups from 40 devices",
+ "e4_requests": "1.22 M requests",
+ "auc_leaky": "0.998",
+ "auc_existing": "0.872",
+ "auc_s1": "0.994",
+ "simpson": "52.0% to 68.2%",
+ "robots_auc": "0.996",
+ "false_alerts": "0 false alerts",
+ "tests": "21/21 tests"
+}

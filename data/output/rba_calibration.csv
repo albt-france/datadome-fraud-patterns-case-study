@@ -1,0 +1,2 @@
+logins,users,first_day,last_day,human_success_rate,attack_success_rate,attack_ip_share,top10_asn_share_of_attacks,ato_logins,ato_per_million
+31269264,4304857,2020-02-03,2021-02-28,0.4166,0.2598,0.099,0.8701,141,4.51

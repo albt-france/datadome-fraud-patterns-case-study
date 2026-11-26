@@ -1,0 +1,2 @@
+customer_id,cluster_devices,attempts,ip_device_pairs,failure_rate,first_day,last_day,ua_family
+C03,25,400278,192323,0.9742,2026-10-05,2026-10-18,Chrome 109

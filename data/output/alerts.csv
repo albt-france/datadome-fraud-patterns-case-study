@@ -1,0 +1,11 @@
+customer_id,week,moved,status,campaign
+C05,2026-09-21,"disposable_share +966%, prepaid_share +458%",alert,
+C03,2026-10-05,"logins +493%, challenge_pass_rate -87%, challenge_rate +126%, devices_per_login -83%, failure_rate +46%, update_after_login_rate +114%",alert,
+C03,2026-10-12,"logins +490%, devices_per_login -83%, challenge_rate +122%, challenge_pass_rate -88%, failure_rate +46%, update_after_login_rate +135%",alert,
+C07,2026-10-12,empty_device_share +9 pts,data quality,
+C07,2026-10-19,empty_device_share +17 pts,data quality,
+C07,2026-10-26,empty_device_share +18 pts,data quality,
+C04,2026-11-02,challenge_rate +105%,expected after rule R12 (review its effect),
+C04,2026-11-09,challenge_rate +101%,expected after rule R12 (review its effect),
+C01,2026-11-16,"signups +141%, logins +98%",explained by the customer's campaign,Black Friday members pre-sale
+C04,2026-11-16,challenge_rate +93%,expected after rule R12 (review its effect),

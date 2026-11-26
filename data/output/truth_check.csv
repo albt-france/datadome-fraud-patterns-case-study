@@ -1,0 +1,9 @@
+event,expected,found,match
+E1,"400278 attempts, 9400 IPs, 25 devices","400278 attempts, 9400.0 IPs, 25 devices",True
+E2,214 accounts,214 accounts,True
+E3,"3800 sign-ups, 40 devices","3800 sign-ups, 40 devices",True
+E4,1199175 requests (campaign),1218262 requests unverified on C08,True
+E5,21620 duplicates,21620 duplicates,True
+E6,"total up, segments down",see out_e6_simpson,True
+E7,"leaky AUC near 1, honest lower","AUC [0.998, 0.872, 0.994]",True
+E8,C01 week of 16 Nov not escalated,"[""explained by the customer's campaign""]",True

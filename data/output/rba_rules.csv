@@ -1,0 +1,13 @@
+rule,period,tp,fp,fn,precision,recall,alerts_per_day,false_alerts_per_ato
+R1 new country for the user,train,45,38532,57,0.00117,0.441,183.0,856.0
+R1 new country for the user,test,22,14245,16,0.00154,0.579,157.0,648.0
+R2 new browser version for the user,train,42,1601065,60,3e-05,0.412,7588.0,38121.0
+R2 new browser version for the user,test,21,980425,17,2e-05,0.553,10774.0,46687.0
+R3 failed logins from the IP (1 h),train,1,99681,101,1e-05,0.01,472.0,99681.0
+R3 failed logins from the IP (1 h),test,0,40791,38,0.0,0.0,448.0,
+R4 logins from the IP (1 h),train,1,76570,101,1e-05,0.01,363.0,76570.0
+R4 logins from the IP (1 h),test,0,30231,38,0.0,0.0,332.0,
+R5 new country AND new browser,train,40,26010,62,0.00154,0.392,123.0,650.0
+R5 new country AND new browser,test,20,10619,18,0.00188,0.526,117.0,531.0
+R6 IP on the attack-IP list,train,58,415095,44,0.00014,0.569,1968.0,7157.0
+R6 IP on the attack-IP list,test,18,179954,20,0.0001,0.474,1978.0,9997.0

@@ -1,0 +1,57 @@
+{
+ "job": {
+  "title": "Fraud Analyst",
+  "location": "France - Remote",
+  "first_published": "2026-10-13T09:01:42-04:00",
+  "updated_at": "2026-10-13T09:01:42-04:00",
+  "departments": [
+   "Threat Research"
+  ],
+  "url": "https://job-boards.greenhouse.io/ddome/jobs/8881607002",
+  "read_on": "2026-11-26"
+ },
+ "open_jobs": 24,
+ "sirene": {
+  "name": "DATADOME",
+  "siren": "811474949",
+  "created": "2015-05-11",
+  "naf": "62.02A",
+  "size_band_code": "22",
+  "hq_city": "PARIS",
+  "accounts_year": "2024",
+  "revenue_eur": 14030274,
+  "net_income_eur": -10532052,
+  "read_on": "2026-11-26",
+  "scope": "French legal entity only (not the group)"
+ },
+ "docs": {
+  "account-protect-login": {
+   "bytes": 486570,
+   "mentions_allow": true,
+   "mentions_deny": true
+  },
+  "account-protect-registration": {
+   "bytes": 498921,
+   "mentions_allow": true,
+   "mentions_deny": true
+  },
+  "account-protect-dashboard": {
+   "bytes": 320085,
+   "mentions_allow": true,
+   "mentions_deny": false
+  }
+ },
+ "reference_lists": {
+  "crawler_ua_patterns": 1510,
+  "googlebot_prefixes": 317,
+  "gptbot_prefixes": 18,
+  "aws_prefixes": 10777,
+  "tor_exit_ips": 1259,
+  "list_dates": {
+   "googlebot": "2026-11-25T15:46:00.000000",
+   "gptbot": "2026-09-22T02:00:07.000000",
+   "aws": "2026-11-26-11-17-05"
+  },
+  "read_on": "2026-11-26"
+ }
+}

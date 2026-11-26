@@ -1,0 +1,20 @@
+# local only (never pushed)
+.env
+DECISIONS.md
+HANDOFF*.md
+CLAUD?.md
+.claud?/
+data/raw/
+data/_hidden_truth.csv
+__pycache__/
+.ipynb_checkpoints/
+~$*.xlsx
+~$*.docx
+~$*.pptx
+*.tmp
+excel/_lo/
+*.pbix
+cache.abf
+localSettings.json
+*.duckdb
+*.duckdb.wal

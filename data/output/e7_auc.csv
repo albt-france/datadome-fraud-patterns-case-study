@@ -1,0 +1,4 @@
+model,evaluated_on,auc,precision_at_alert,recall_at_alert,alerts_per_day,positives,negatives
+A leaky: account locked in the 23 Nov snapshot,all rows (no split),0.998,0.0668,1.0,40.0,224,827574
+"B existing signals, as of login",test (12 Oct - 22 Nov),0.872,0.0012,0.982,2256.0,113,414096
+"C existing + S1 device cluster, as of login",test (12 Oct - 22 Nov),0.994,0.0203,0.973,129.0,113,414096

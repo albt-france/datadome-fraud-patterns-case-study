@@ -1,0 +1,4 @@
+signal,scope,alerts_per_day,precision,recall,baseline_alerts_per_day,baseline_precision
+S1 device cluster (added to existing signals),"successful logins, 12 Oct - 22 Nov",129.0,0.0203,0.973,2256.0,0.0012
+S2 success then credential change within 1 h,"successful logins, 31 Aug - 22 Nov",42.0,0.0628,0.991,,
+S3 crawler claim not verified by published IP ranges,"crawler sessions, all customers",54.0,,,,

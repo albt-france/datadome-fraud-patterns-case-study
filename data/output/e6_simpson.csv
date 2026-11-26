@@ -1,0 +1,7 @@
+period,channel,challenges,pass_rate,share_of_challenges
+1 before R12 (5-25 Oct),total,2497,0.5202,0.5
+1 before R12 (5-25 Oct),app,394,0.901,0.0789
+1 before R12 (5-25 Oct),web,2103,0.4489,0.4211
+2 after R12 (2-22 Nov),total,4995,0.6821,0.5
+2 after R12 (2-22 Nov),app,2849,0.8929,0.2852
+2 after R12 (2-22 Nov),web,2146,0.4021,0.2148

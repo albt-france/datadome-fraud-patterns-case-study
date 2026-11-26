@@ -1,0 +1,2 @@
+customer_id,devices,signups,disposable_share,prepaid_share,avg_username_entropy,trial_conversion,share_recommended_allow,first_day,last_day
+C05,40,3800,0.9139,0.9545,1.6,0.0,0.9487,2026-09-14,2026-10-11
